@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "pethealth",
+  "version": "${version}",
+  "name": "PetHealth",
+  "description": "TODO",
+  "authors": [
+    "SandaruKasa"
+  ],
+  "contact": {
+    "website": "https://github.com/SandaruKasa/PetHealth",
+    "repo": "https://github.com/SandaruKasa/PetHealth"
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/pethealth/icon.png (TODO)",
+  "environment": "client",
+  "entrypoints": {
+  },
+  "mixins": [
+    "pethealth.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
